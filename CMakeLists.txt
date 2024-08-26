@@ -12,7 +12,7 @@ endif()
 project ("bfint")
 
 # Add source to this project's executable.
-add_executable (bfint "bfint.cpp"  "interpreter.cpp")
+add_executable (bfint "src/bfint.cpp"  "src/interpreter.cpp")
 
 if (CMAKE_VERSION VERSION_GREATER 3.12)
   set_property(TARGET bfint PROPERTY CXX_STANDARD 20)
